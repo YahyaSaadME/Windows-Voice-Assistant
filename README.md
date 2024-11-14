@@ -29,7 +29,7 @@ Make sure you have the following installed:
 ## Usage
 1. Automatic Listener code
    ```bash
-   python listen.py
+   python listener.py
 2. Software Code
    ```bash
    python main.py
