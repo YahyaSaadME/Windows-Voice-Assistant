@@ -24,7 +24,7 @@ Make sure you have the following installed:
    cd Windows-Voice-Assistant
 2. Install the required packages:
    ```bash
-   pip install SpeechRecognition pyautogui pygame pyaudio
+   pip install SpeechRecognition pyautogui pygame pyaudio groq
    
 ## Usage
 1. Automatic Listener code
