@@ -6,7 +6,7 @@ from speech import recognize_speech
 from audio import convert_text_to_speech
 from click import find_and_click
 from execute import execute_key_combinations
-from convert import blackbox
+from convert import groq
 
 pygame.mixer.init()
 recognizer = sr.Recognizer()
@@ -29,7 +29,7 @@ def req(res):
             res = res.replace('click on','').replace('click','')
             find_and_click(res)
             
-        res = blackbox.chat(res)
+        res = groq.chat(res)
         for r in res:
             try:
                 if 'audio' in r.keys():
